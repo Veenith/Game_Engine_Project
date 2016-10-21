@@ -1,1 +1,2 @@
 D:\Data\Programming\Game project\Game_Engine_Project\Game Project\Game Project\bin\Debug\Game Project.exe.config
+C:\Danh\Software Developed\Game Engine Project\Game_Engine_Project\Game Project\Game Project\bin\Debug\Game Project.exe.config
