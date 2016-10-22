@@ -1,2 +1,8 @@
 D:\Data\Programming\Game project\Game_Engine_Project\Game Project\Game Project\bin\Debug\Game Project.exe.config
 C:\Danh\Software Developed\Game Engine Project\Game_Engine_Project\Game Project\Game Project\bin\Debug\Game Project.exe.config
+D:\Data\Programming\Game project\Game_Engine_Project\Game Project\Game Project\bin\Debug\Game Project.exe
+D:\Data\Programming\Game project\Game_Engine_Project\Game Project\Game Project\bin\Debug\Game Project.pdb
+D:\Data\Programming\Game project\Game_Engine_Project\Game Project\Game Project\bin\Debug\Pencil.Gaming.dll
+D:\Data\Programming\Game project\Game_Engine_Project\Game Project\Game Project\obj\Debug\Game Project.csprojResolveAssemblyReference.cache
+D:\Data\Programming\Game project\Game_Engine_Project\Game Project\Game Project\obj\Debug\Game Project.exe
+D:\Data\Programming\Game project\Game_Engine_Project\Game Project\Game Project\obj\Debug\Game Project.pdb
