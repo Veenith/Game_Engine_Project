@@ -16,12 +16,18 @@ namespace Game_Project
             GameEngine engine = new GameEngine();
             Input input = new Input();
             engine.init(input);
-            while (true)
+            input.setupInput("left", Key.A);
+            input.setupInput("quit", Key.Escape);
+            while (!engine.shouldClose())
             {
                 engine.frame();
-                if(input.left)
+                if (input.hold ("left"))
                 {
                     Console.WriteLine("left");
+                }
+                if(input.hold("quit"))
+                {
+                    engine.close();
                 }
             }
         }
@@ -37,6 +43,7 @@ namespace Game_Project
             gameWindow = Glfw.CreateWindow(1000, 800, "Test", GlfwMonitorPtr.Null, GlfwWindowPtr.Null);
             Glfw.MakeContextCurrent(gameWindow);
             input.init(gameWindow);
+            Glfw.SetWindowShouldClose(gameWindow, false);
         }
 
         public void frame()
@@ -45,6 +52,16 @@ namespace Game_Project
             GL.Clear(ClearBufferMask.ColorBufferBit);
             Glfw.SwapBuffers(gameWindow);
             Glfw.PollEvents();
+        }
+
+        public bool shouldClose()
+        {
+            return Glfw.WindowShouldClose(gameWindow);
+        }
+
+        public void close()
+        {
+            Glfw.SetWindowShouldClose(gameWindow, true);
         }
     }
 }
